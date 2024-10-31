@@ -10,7 +10,7 @@ function Favoritos() {
 			<section className="mt-[140px]">
 				{isEmpty ? (
 					<p className="text-2xl text-gray-500">
-						No hay tienes ningun favorito.
+						No tienes agregado ningun favorito.
 					</p>
 				) : (
 					<section className="w-full grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
